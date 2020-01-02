@@ -1,0 +1,35 @@
+{
+    "name": "KaiOS",
+    "description": "Demonstrates a basic KaiOS app",
+    "version": "0.0.1",
+    "developer": {
+      "name": "Isuru sampath",
+      "url": "http://example.com"
+    },
+    "launch_path": "/index.html",
+      "icons": {
+      "56": "icons/22285-snake-icon-56.png",
+      "112": "/icons/22285-snake-icon-112.png "
+    },
+    "theme_color": "#a065e6",
+    "type": "privileged",
+    "permissions": {
+      "systemXHR": {}
+    },
+    "chrome": {
+      "statusbar": "overlap"
+    },
+    "orientation": "default",
+    "locales": {
+      "en-US": {
+        "name": "Template",
+        "description": "Template App for KaiOS"
+      },
+      "zh-CN": {
+        "name": "模板",
+        "description": "KaiOS模板应用"
+      }
+    },
+    "default_locale": "en-US"
+  }
+  
